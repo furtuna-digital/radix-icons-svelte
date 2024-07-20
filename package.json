@@ -1,0 +1,57 @@
+{
+  "name": "@furtuna/radix-icons-svelte",
+  "version": "0.0.1",
+  "type": "module",
+  "module": "./dist/main.js",
+  "svelte": "./dist",
+  "scripts": {
+    "build": "bun run clean && bun run generate.js",
+    "clean": "rm -rf ./dist/*",
+    "prepublishOnly": "bun run build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "author": "Dair Aidarkhanov",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/furtuna-digital/radix-icons-svelte.git"
+  },
+  "bugs": {
+    "url": "https://github.com/furtuna-digital/radix-icons-svelte/issues"
+  },
+  "homepage": "https://github.com/furtuna-digital/radix-icons-svelte",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/main.js",
+      "svelte": "./dist",
+      "types": "./dist",
+      "default": "./dist/main.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "contributors": [
+    {
+      "name": "Furtuna",
+      "url": "https://furtuna.digital/"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "BSD-2-Clause",
+      "url": "https://opensource.org/licenses/BSD-2-Clause"
+    },
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT",
+      "note": "Radix Icons used under MIT License from WorkOS, Inc."
+    }
+  ]
+}
