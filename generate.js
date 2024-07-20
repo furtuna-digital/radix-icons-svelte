@@ -19,11 +19,11 @@ async function generateIconComponent(file) {
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-	width={size}
-	height={size}
-	viewBox="0 0 15 15"
-	fill="none"
-	{...props}
+  width={size}
+  height={size}
+  viewBox="0 0 15 15"
+  fill="none"
+  {...props}
 >
   ${content.replace(/<svg[^>]*>|<\/svg>/g, "").replace(/fill="[^"]*"/g, `fill={color}`).trim()}
 </svg>

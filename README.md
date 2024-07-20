@@ -24,19 +24,19 @@ Import the icons into your Svelte project:
 </script>
 
 <div>
-  <FaceIcon />
-  <SunIcon />
-  <ImageIcon />
+  <FaceIcon size={40} color="red" />
+  <SunIcon size={40} color="green" />
+  <ImageIcon size={40} color="blue" />
 </div>
 ```
 
 ### Authors
 
-- Dair Aidarkhanov ([@dairaidarkhanov](https://twitter.com/dairaidarkhanov)) – [Furtuna](https://furtuna.digital)
-- Vlad Moroz ([@vladyslavmoroz](https://twitter.com/vladyslavmoroz)) – [WorkOS](https://workos.com)
-- Colm Tuite ([@colmtuite](https://twitter.com/colmtuite)) – [WorkOS](https://workos.com)
-- Pedro Duarte ([@peduarte](https://twitter.com/peduarte))
-- Lochlan Bunn ([@loklaan](https://twitter.com/loklaan))
+- Dair Aidarkhanov ([@dairaidarkhanov](https://twitter.com/dairaidarkhanov)) – [Furtuna](https://furtuna.digital).
+- Vlad Moroz ([@vladyslavmoroz](https://twitter.com/vladyslavmoroz)) – [WorkOS](https://workos.com).
+- Colm Tuite ([@colmtuite](https://twitter.com/colmtuite)) – [WorkOS](https://workos.com).
+- Pedro Duarte ([@peduarte](https://twitter.com/peduarte)).
+- Lochlan Bunn ([@loklaan](https://twitter.com/loklaan)).
 
 ### License
 
