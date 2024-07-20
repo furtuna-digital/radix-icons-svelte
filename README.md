@@ -4,8 +4,6 @@ A crisp set of 15×15 icons designed by the [WorkOS](https://workos.com) team ad
 
 Visit [icons.radix-ui.com](https://icons.radix-ui.com) to browse the icons.
 
----
-
 ### Documentation
 
 All icons are available as individual Svelte components.
