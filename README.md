@@ -43,4 +43,4 @@ Import the icons into your Svelte project:
 - **Radix Icons for Svelte** created under the BSD 2-Clause License from Furtuna.
 - **Radix Icons** used under the MIT License from WorkOS, Inc.
 
-See [LICENSE](./LICENSE.md) for more information.
+See [LICENSE](./LICENSE) for more information.
