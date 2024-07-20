@@ -1,5 +1,7 @@
 export default PieChartIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type PieChartIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

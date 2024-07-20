@@ -1,5 +1,7 @@
 export default CodeIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CodeIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

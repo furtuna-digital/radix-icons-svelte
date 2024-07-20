@@ -1,5 +1,7 @@
 export default TimerIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type TimerIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default ViewVerticalIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ViewVerticalIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

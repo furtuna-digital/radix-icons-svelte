@@ -1,5 +1,7 @@
 export default EnvelopeOpenIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type EnvelopeOpenIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

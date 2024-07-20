@@ -1,5 +1,7 @@
 export default LaptopIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type LaptopIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

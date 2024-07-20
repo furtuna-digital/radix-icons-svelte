@@ -1,5 +1,7 @@
 export default ViewNoneIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ViewNoneIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

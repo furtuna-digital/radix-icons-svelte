@@ -1,5 +1,7 @@
 export default CaretLeftIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CaretLeftIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default EnterFullScreenIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type EnterFullScreenIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

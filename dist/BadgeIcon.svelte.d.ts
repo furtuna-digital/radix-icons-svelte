@@ -1,5 +1,7 @@
 export default BadgeIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type BadgeIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

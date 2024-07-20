@@ -1,5 +1,7 @@
 export default LoopIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type LoopIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

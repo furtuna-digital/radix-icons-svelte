@@ -1,5 +1,7 @@
 export default TableIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type TableIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

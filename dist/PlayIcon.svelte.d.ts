@@ -1,5 +1,7 @@
 export default PlayIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type PlayIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

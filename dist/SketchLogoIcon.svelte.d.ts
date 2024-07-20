@@ -1,5 +1,7 @@
 export default SketchLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type SketchLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

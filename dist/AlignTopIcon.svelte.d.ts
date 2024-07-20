@@ -1,5 +1,7 @@
 export default AlignTopIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type AlignTopIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default StackIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type StackIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

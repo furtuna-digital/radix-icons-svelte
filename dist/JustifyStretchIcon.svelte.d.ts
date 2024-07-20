@@ -1,5 +1,7 @@
 export default JustifyStretchIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type JustifyStretchIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

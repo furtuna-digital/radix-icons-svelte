@@ -1,5 +1,7 @@
 export default DotsVerticalIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DotsVerticalIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

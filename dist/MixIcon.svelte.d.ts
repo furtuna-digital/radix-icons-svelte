@@ -1,5 +1,7 @@
 export default MixIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type MixIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

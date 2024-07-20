@@ -1,5 +1,7 @@
 export default CornerTopLeftIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CornerTopLeftIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

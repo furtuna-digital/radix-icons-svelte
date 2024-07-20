@@ -1,5 +1,7 @@
 export default AlignHorizontalCentersIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type AlignHorizontalCentersIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

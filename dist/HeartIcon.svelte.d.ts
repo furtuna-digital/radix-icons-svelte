@@ -1,5 +1,7 @@
 export default HeartIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type HeartIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

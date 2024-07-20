@@ -1,5 +1,7 @@
 export default TextAlignBottomIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type TextAlignBottomIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

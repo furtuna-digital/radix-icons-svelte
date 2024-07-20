@@ -1,5 +1,7 @@
 export default VideoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type VideoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default DownloadIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DownloadIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

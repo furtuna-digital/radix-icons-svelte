@@ -1,5 +1,7 @@
 export default DiscIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DiscIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

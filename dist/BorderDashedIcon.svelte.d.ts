@@ -1,5 +1,7 @@
 export default BorderDashedIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type BorderDashedIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

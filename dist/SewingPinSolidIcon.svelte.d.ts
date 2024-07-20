@@ -1,5 +1,7 @@
 export default SewingPinSolidIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type SewingPinSolidIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

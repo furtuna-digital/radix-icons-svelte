@@ -1,5 +1,7 @@
 export default ClipboardIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ClipboardIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

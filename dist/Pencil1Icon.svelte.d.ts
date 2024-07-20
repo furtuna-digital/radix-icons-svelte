@@ -1,5 +1,7 @@
 export default Pencil1Icon;
 
+import type { SvelteComponent } from "svelte";
+
 type Pencil1Icon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

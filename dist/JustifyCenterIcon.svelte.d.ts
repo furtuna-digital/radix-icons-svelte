@@ -1,5 +1,7 @@
 export default JustifyCenterIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type JustifyCenterIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

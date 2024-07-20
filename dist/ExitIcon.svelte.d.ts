@@ -1,5 +1,7 @@
 export default ExitIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ExitIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

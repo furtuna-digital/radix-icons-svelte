@@ -1,5 +1,7 @@
 export default StretchVerticallyIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type StretchVerticallyIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

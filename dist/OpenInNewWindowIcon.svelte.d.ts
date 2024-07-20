@@ -1,5 +1,7 @@
 export default OpenInNewWindowIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type OpenInNewWindowIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

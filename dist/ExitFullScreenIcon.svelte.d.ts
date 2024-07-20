@@ -1,5 +1,7 @@
 export default ExitFullScreenIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ExitFullScreenIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default LetterCaseLowercaseIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type LetterCaseLowercaseIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

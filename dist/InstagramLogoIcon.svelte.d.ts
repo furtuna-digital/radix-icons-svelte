@@ -1,5 +1,7 @@
 export default InstagramLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type InstagramLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

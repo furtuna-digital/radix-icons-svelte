@@ -1,5 +1,7 @@
 export default DrawingPinFilledIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DrawingPinFilledIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

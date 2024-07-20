@@ -1,5 +1,7 @@
 export default TransformIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type TransformIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

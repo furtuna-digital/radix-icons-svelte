@@ -1,5 +1,7 @@
 export default FontItalicIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type FontItalicIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

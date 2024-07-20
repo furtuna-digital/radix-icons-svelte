@@ -1,5 +1,7 @@
 export default PinTopIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type PinTopIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

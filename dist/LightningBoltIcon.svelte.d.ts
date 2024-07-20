@@ -1,5 +1,7 @@
 export default LightningBoltIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type LightningBoltIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

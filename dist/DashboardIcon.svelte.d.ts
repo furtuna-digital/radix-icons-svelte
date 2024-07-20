@@ -1,5 +1,7 @@
 export default DashboardIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DashboardIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

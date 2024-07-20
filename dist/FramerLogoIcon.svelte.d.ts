@@ -1,5 +1,7 @@
 export default FramerLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type FramerLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

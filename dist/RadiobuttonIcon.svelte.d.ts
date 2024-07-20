@@ -1,5 +1,7 @@
 export default RadiobuttonIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type RadiobuttonIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

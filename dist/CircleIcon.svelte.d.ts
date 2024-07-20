@@ -1,5 +1,7 @@
 export default CircleIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CircleIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

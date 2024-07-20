@@ -1,5 +1,7 @@
 export default LinkedinLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type LinkedinLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

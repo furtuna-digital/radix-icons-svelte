@@ -1,5 +1,7 @@
 export default CameraIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CameraIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

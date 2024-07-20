@@ -1,5 +1,7 @@
 export default DotSolidIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DotSolidIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

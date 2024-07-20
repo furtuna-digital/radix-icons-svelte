@@ -1,5 +1,7 @@
 export default LinkNone1Icon;
 
+import type { SvelteComponent } from "svelte";
+
 type LinkNone1Icon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

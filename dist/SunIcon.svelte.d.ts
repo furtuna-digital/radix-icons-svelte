@@ -1,5 +1,7 @@
 export default SunIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type SunIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

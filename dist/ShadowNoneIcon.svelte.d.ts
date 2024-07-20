@@ -1,5 +1,7 @@
 export default ShadowNoneIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ShadowNoneIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

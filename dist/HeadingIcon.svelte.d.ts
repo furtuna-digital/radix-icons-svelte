@@ -1,5 +1,7 @@
 export default HeadingIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type HeadingIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

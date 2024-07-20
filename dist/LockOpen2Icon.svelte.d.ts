@@ -1,5 +1,7 @@
 export default LockOpen2Icon;
 
+import type { SvelteComponent } from "svelte";
+
 type LockOpen2Icon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

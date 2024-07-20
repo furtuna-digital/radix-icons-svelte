@@ -1,5 +1,7 @@
 export default CheckIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CheckIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

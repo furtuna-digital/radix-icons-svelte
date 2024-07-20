@@ -1,5 +1,7 @@
 export default AlignBaselineIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type AlignBaselineIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

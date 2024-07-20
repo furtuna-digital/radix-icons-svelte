@@ -1,5 +1,7 @@
 export default RulerHorizontalIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type RulerHorizontalIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

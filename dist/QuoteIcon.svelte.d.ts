@@ -1,5 +1,7 @@
 export default QuoteIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type QuoteIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

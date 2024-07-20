@@ -1,5 +1,7 @@
 export default SpaceEvenlyHorizontallyIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type SpaceEvenlyHorizontallyIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

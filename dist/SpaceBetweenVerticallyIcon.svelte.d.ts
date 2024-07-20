@@ -1,5 +1,7 @@
 export default SpaceBetweenVerticallyIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type SpaceBetweenVerticallyIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

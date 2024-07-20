@@ -1,5 +1,7 @@
 export default ColumnSpacingIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ColumnSpacingIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

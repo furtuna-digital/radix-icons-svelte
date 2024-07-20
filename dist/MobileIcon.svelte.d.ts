@@ -1,5 +1,7 @@
 export default MobileIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type MobileIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

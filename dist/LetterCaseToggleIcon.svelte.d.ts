@@ -1,5 +1,7 @@
 export default LetterCaseToggleIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type LetterCaseToggleIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

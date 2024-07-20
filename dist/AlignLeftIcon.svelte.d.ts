@@ -1,5 +1,7 @@
 export default AlignLeftIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type AlignLeftIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

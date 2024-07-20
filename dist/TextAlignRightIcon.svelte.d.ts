@@ -1,5 +1,7 @@
 export default TextAlignRightIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type TextAlignRightIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

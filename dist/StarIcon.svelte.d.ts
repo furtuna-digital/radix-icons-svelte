@@ -1,5 +1,7 @@
 export default StarIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type StarIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

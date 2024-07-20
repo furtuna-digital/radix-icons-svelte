@@ -1,5 +1,7 @@
 export default MinusIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type MinusIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

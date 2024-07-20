@@ -1,5 +1,7 @@
 export default ComponentBooleanIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ComponentBooleanIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

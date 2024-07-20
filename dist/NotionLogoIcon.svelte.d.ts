@@ -1,5 +1,7 @@
 export default NotionLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type NotionLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

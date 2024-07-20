@@ -1,5 +1,7 @@
 export default ValueIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ValueIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

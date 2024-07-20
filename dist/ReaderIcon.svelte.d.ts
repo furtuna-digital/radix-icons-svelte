@@ -1,5 +1,7 @@
 export default ReaderIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ReaderIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

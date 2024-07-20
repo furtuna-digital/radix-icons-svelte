@@ -1,5 +1,7 @@
 export default PaddingIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type PaddingIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

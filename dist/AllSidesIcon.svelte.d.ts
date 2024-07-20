@@ -1,5 +1,7 @@
 export default AllSidesIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type AllSidesIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

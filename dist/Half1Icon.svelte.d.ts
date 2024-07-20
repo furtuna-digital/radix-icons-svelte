@@ -1,5 +1,7 @@
 export default Half1Icon;
 
+import type { SvelteComponent } from "svelte";
+
 type Half1Icon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

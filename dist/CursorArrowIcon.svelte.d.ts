@@ -1,5 +1,7 @@
 export default CursorArrowIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CursorArrowIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

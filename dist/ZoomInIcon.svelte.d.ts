@@ -1,5 +1,7 @@
 export default ZoomInIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ZoomInIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default HomeIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type HomeIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

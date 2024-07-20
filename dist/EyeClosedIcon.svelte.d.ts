@@ -1,5 +1,7 @@
 export default EyeClosedIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type EyeClosedIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

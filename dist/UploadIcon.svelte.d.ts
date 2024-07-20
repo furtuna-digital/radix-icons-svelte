@@ -1,5 +1,7 @@
 export default UploadIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type UploadIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

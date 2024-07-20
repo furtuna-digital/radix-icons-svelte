@@ -1,5 +1,7 @@
 export default KeyboardIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type KeyboardIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

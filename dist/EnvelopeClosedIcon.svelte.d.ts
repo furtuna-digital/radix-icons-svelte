@@ -1,5 +1,7 @@
 export default EnvelopeClosedIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type EnvelopeClosedIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

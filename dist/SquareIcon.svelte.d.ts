@@ -1,5 +1,7 @@
 export default SquareIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type SquareIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

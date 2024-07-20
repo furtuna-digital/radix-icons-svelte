@@ -1,5 +1,7 @@
 export default CubeIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CubeIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

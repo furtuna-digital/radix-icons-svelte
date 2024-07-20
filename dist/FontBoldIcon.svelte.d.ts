@@ -1,5 +1,7 @@
 export default FontBoldIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type FontBoldIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

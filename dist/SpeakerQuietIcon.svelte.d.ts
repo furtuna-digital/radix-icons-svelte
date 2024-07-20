@@ -1,5 +1,7 @@
 export default SpeakerQuietIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type SpeakerQuietIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

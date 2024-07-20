@@ -1,5 +1,7 @@
 export default ExclamationTriangleIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ExclamationTriangleIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default LayoutIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type LayoutIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

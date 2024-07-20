@@ -1,5 +1,7 @@
 export default SlashIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type SlashIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default CircleBackslashIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CircleBackslashIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

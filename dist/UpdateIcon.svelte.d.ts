@@ -1,5 +1,7 @@
 export default UpdateIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type UpdateIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default FontSizeIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type FontSizeIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

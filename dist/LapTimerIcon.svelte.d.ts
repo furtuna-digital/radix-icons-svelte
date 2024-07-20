@@ -1,5 +1,7 @@
 export default LapTimerIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type LapTimerIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default DotsHorizontalIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DotsHorizontalIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

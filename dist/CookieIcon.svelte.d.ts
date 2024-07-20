@@ -1,5 +1,7 @@
 export default CookieIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CookieIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

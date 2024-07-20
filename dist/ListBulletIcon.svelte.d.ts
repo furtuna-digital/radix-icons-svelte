@@ -1,5 +1,7 @@
 export default ListBulletIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ListBulletIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

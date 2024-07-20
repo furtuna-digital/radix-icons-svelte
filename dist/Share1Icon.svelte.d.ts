@@ -1,5 +1,7 @@
 export default Share1Icon;
 
+import type { SvelteComponent } from "svelte";
+
 type Share1Icon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

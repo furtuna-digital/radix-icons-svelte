@@ -1,5 +1,7 @@
 export default ScissorsIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ScissorsIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

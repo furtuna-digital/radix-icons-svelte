@@ -1,5 +1,7 @@
 export default TextAlignMiddleIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type TextAlignMiddleIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default WidthIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type WidthIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default StopIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type StopIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

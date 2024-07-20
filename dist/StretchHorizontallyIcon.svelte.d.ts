@@ -1,5 +1,7 @@
 export default StretchHorizontallyIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type StretchHorizontallyIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

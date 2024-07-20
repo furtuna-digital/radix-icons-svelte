@@ -1,5 +1,7 @@
 export default StrikethroughIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type StrikethroughIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

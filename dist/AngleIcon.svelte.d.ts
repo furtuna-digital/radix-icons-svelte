@@ -1,5 +1,7 @@
 export default AngleIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type AngleIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

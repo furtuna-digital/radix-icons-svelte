@@ -1,5 +1,7 @@
 export default MagicWandIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type MagicWandIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

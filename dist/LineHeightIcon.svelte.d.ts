@@ -1,5 +1,7 @@
 export default LineHeightIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type LineHeightIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

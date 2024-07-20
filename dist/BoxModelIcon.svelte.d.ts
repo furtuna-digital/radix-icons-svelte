@@ -1,5 +1,7 @@
 export default BoxModelIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type BoxModelIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

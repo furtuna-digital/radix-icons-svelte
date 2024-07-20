@@ -1,5 +1,7 @@
 export default InputIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type InputIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

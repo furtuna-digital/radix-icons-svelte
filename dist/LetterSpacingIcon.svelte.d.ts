@@ -1,5 +1,7 @@
 export default LetterSpacingIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type LetterSpacingIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

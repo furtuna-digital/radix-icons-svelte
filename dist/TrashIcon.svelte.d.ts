@@ -1,5 +1,7 @@
 export default TrashIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type TrashIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

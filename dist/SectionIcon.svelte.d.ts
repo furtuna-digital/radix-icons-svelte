@@ -1,5 +1,7 @@
 export default SectionIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type SectionIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

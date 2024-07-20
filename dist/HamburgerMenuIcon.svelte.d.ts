@@ -1,5 +1,7 @@
 export default HamburgerMenuIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type HamburgerMenuIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

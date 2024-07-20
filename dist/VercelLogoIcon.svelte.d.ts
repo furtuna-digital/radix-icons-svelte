@@ -1,5 +1,7 @@
 export default VercelLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type VercelLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

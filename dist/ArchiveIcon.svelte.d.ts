@@ -1,5 +1,7 @@
 export default ArchiveIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ArchiveIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

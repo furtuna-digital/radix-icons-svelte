@@ -1,5 +1,7 @@
 export default RocketIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type RocketIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

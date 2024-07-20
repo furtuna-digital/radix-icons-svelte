@@ -1,5 +1,7 @@
 export default Cross2Icon;
 
+import type { SvelteComponent } from "svelte";
+
 type Cross2Icon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

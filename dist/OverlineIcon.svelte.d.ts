@@ -1,5 +1,7 @@
 export default OverlineIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type OverlineIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

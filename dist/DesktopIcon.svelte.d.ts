@@ -1,5 +1,7 @@
 export default DesktopIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DesktopIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

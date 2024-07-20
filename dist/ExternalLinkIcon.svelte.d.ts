@@ -1,5 +1,7 @@
 export default ExternalLinkIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ExternalLinkIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

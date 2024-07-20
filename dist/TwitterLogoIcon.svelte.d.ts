@@ -1,5 +1,7 @@
 export default TwitterLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type TwitterLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

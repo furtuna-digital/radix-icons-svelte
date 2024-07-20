@@ -1,5 +1,7 @@
 export default ThickArrowLeftIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ThickArrowLeftIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

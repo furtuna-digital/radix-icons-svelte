@@ -1,5 +1,7 @@
 export default GroupIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type GroupIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

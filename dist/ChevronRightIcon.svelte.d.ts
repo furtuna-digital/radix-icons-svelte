@@ -1,5 +1,7 @@
 export default ChevronRightIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ChevronRightIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

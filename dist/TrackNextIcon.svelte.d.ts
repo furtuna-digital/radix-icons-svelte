@@ -1,5 +1,7 @@
 export default TrackNextIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type TrackNextIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

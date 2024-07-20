@@ -1,5 +1,7 @@
 export default SliderIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type SliderIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

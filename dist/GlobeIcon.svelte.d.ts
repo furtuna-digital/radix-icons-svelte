@@ -1,5 +1,7 @@
 export default GlobeIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type GlobeIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

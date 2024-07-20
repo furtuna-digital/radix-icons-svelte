@@ -1,5 +1,7 @@
 export default CrumpledPaperIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CrumpledPaperIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

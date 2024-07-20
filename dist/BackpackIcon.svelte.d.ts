@@ -1,5 +1,7 @@
 export default BackpackIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type BackpackIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

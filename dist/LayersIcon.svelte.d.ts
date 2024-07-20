@@ -1,5 +1,7 @@
 export default LayersIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type LayersIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

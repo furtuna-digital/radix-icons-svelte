@@ -1,5 +1,7 @@
 export default ReloadIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ReloadIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

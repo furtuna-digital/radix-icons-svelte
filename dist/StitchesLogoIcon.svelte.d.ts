@@ -1,5 +1,7 @@
 export default StitchesLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type StitchesLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

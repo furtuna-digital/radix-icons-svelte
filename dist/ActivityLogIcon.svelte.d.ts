@@ -1,5 +1,7 @@
 export default ActivityLogIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ActivityLogIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

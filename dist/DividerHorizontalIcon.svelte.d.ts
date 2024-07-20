@@ -1,5 +1,7 @@
 export default DividerHorizontalIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DividerHorizontalIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

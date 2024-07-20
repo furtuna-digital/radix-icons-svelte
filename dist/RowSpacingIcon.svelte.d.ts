@@ -1,5 +1,7 @@
 export default RowSpacingIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type RowSpacingIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

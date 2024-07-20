@@ -1,5 +1,7 @@
 export default CardStackIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CardStackIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

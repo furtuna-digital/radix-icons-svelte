@@ -1,5 +1,7 @@
 export default Link2Icon;
 
+import type { SvelteComponent } from "svelte";
+
 type Link2Icon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

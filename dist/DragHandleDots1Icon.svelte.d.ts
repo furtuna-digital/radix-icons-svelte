@@ -1,5 +1,7 @@
 export default DragHandleDots1Icon;
 
+import type { SvelteComponent } from "svelte";
+
 type DragHandleDots1Icon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default MagnifyingGlassIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type MagnifyingGlassIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default GithubLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type GithubLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

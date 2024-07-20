@@ -1,5 +1,7 @@
 export default GridIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type GridIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

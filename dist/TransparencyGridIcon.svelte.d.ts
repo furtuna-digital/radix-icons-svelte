@@ -1,5 +1,7 @@
 export default TransparencyGridIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type TransparencyGridIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

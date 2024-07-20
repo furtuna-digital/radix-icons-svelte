@@ -1,5 +1,7 @@
 export default CalendarIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CalendarIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

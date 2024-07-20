@@ -1,5 +1,7 @@
 export default ClockIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ClockIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

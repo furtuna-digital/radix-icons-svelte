@@ -1,5 +1,7 @@
 export default TriangleLeftIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type TriangleLeftIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

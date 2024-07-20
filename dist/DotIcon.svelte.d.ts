@@ -1,5 +1,7 @@
 export default DotIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DotIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

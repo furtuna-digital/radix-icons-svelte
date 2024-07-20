@@ -1,5 +1,7 @@
 export default BorderStyleIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type BorderStyleIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

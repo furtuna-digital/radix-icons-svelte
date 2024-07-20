@@ -1,5 +1,7 @@
 export default IdCardIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type IdCardIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

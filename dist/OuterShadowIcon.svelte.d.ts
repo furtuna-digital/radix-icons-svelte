@@ -1,5 +1,7 @@
 export default OuterShadowIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type OuterShadowIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

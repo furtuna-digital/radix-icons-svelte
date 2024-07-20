@@ -1,5 +1,7 @@
 export default CommitIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CommitIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

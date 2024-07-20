@@ -1,5 +1,7 @@
 export default CodesandboxLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CodesandboxLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

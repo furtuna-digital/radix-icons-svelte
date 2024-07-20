@@ -1,5 +1,7 @@
 export default MarginIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type MarginIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

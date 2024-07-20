@@ -1,5 +1,7 @@
 export default DiscordLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DiscordLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

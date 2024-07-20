@@ -1,5 +1,7 @@
 export default ShuffleIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ShuffleIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

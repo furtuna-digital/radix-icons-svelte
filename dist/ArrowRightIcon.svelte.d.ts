@@ -1,5 +1,7 @@
 export default ArrowRightIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ArrowRightIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

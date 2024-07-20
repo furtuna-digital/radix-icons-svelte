@@ -1,5 +1,7 @@
 export default CropIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CropIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

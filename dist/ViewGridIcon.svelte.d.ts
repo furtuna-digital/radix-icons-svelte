@@ -1,5 +1,7 @@
 export default ViewGridIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ViewGridIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default GearIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type GearIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default AccessibilityIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type AccessibilityIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

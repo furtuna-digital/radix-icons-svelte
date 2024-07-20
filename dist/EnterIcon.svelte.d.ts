@@ -1,5 +1,7 @@
 export default EnterIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type EnterIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default MaskOffIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type MaskOffIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

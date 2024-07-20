@@ -1,5 +1,7 @@
 export default DragHandleHorizontalIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DragHandleHorizontalIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

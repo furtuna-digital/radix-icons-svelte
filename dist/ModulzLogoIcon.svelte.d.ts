@@ -1,5 +1,7 @@
 export default ModulzLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ModulzLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

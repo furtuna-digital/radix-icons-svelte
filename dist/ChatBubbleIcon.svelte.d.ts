@@ -1,5 +1,7 @@
 export default ChatBubbleIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ChatBubbleIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

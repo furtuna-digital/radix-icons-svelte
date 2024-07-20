@@ -1,5 +1,7 @@
 export default ColumnsIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ColumnsIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

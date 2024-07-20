@@ -1,5 +1,7 @@
 export default QuestionMarkCircledIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type QuestionMarkCircledIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

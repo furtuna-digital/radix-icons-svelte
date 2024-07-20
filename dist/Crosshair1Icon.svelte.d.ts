@@ -1,5 +1,7 @@
 export default Crosshair1Icon;
 
+import type { SvelteComponent } from "svelte";
+
 type Crosshair1Icon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

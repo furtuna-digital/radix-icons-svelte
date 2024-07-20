@@ -1,5 +1,7 @@
 export default BellIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type BellIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default ResetIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ResetIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

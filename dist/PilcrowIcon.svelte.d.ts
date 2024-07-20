@@ -1,5 +1,7 @@
 export default PilcrowIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type PilcrowIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default SwitchIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type SwitchIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

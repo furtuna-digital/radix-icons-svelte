@@ -1,5 +1,7 @@
 export default FrameIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type FrameIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

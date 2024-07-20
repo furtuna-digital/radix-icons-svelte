@@ -1,5 +1,7 @@
 export default TokensIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type TokensIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

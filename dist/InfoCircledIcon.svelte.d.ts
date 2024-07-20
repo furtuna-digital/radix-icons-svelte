@@ -1,5 +1,7 @@
 export default InfoCircledIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type InfoCircledIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

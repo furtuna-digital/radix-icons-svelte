@@ -1,5 +1,7 @@
 export default FigmaLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type FigmaLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

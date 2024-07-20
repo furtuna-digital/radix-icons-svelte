@@ -1,5 +1,7 @@
 export default MoveIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type MoveIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

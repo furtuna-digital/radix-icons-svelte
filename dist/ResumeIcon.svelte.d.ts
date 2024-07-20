@@ -1,5 +1,7 @@
 export default ResumeIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ResumeIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

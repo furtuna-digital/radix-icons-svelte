@@ -1,5 +1,7 @@
 export default StopwatchIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type StopwatchIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

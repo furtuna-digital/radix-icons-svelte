@@ -1,5 +1,7 @@
 export default DropdownMenuIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DropdownMenuIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

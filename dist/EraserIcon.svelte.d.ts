@@ -1,5 +1,7 @@
 export default EraserIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type EraserIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

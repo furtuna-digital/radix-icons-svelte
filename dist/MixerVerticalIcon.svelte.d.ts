@@ -1,5 +1,7 @@
 export default MixerVerticalIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type MixerVerticalIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

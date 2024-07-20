@@ -1,5 +1,7 @@
 export default RotateCounterClockwiseIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type RotateCounterClockwiseIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

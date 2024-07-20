@@ -1,5 +1,7 @@
 export default OpacityIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type OpacityIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

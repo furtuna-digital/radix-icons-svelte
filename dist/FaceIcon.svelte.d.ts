@@ -1,5 +1,7 @@
 export default FaceIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type FaceIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default QuestionMarkIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type QuestionMarkIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

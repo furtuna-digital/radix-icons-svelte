@@ -1,5 +1,7 @@
 export default UnderlineIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type UnderlineIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,6 +1,6 @@
 {
   "name": "@furtuna/radix-icons-svelte",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "type": "module",
   "module": "./dist/main.js",
   "svelte": "./dist",

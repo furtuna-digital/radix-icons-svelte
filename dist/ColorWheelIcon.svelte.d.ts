@@ -1,5 +1,7 @@
 export default ColorWheelIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ColorWheelIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

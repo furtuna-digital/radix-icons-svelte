@@ -1,5 +1,7 @@
 export default LinkBreak2Icon;
 
+import type { SvelteComponent } from "svelte";
+
 type LinkBreak2Icon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

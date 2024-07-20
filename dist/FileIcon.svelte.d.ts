@@ -1,5 +1,7 @@
 export default FileIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type FileIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

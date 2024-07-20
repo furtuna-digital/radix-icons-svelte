@@ -1,5 +1,7 @@
 export default IconjarLogoIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type IconjarLogoIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

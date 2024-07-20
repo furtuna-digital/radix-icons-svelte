@@ -1,5 +1,7 @@
 export default HandIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type HandIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

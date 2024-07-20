@@ -1,5 +1,7 @@
 export default HobbyKnifeIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type HobbyKnifeIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

@@ -1,5 +1,7 @@
 export default HeightIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type HeightIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

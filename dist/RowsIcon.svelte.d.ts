@@ -1,5 +1,7 @@
 export default RowsIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type RowsIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

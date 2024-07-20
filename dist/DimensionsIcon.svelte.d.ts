@@ -1,5 +1,7 @@
 export default DimensionsIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type DimensionsIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

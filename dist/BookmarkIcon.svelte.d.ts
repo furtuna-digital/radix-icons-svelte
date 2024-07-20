@@ -1,5 +1,7 @@
 export default BookmarkIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type BookmarkIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

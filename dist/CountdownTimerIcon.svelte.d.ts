@@ -1,5 +1,7 @@
 export default CountdownTimerIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type CountdownTimerIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

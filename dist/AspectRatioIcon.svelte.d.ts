@@ -1,5 +1,7 @@
 export default AspectRatioIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type AspectRatioIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

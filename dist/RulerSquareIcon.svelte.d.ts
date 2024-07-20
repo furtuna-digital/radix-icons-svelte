@@ -1,5 +1,7 @@
 export default RulerSquareIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type RulerSquareIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

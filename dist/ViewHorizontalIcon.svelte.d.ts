@@ -1,5 +1,7 @@
 export default ViewHorizontalIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ViewHorizontalIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

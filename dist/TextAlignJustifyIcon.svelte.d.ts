@@ -1,5 +1,7 @@
 export default TextAlignJustifyIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type TextAlignJustifyIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

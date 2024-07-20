@@ -1,5 +1,7 @@
 export default PauseIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type PauseIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

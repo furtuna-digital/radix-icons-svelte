@@ -1,5 +1,7 @@
 export default PinBottomIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type PinBottomIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

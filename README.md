@@ -32,7 +32,7 @@ Import the icons into your Svelte project:
 
 ### Authors
 
-- Dair Aidarkhanov ([@dairaidarkhanov](https://twitter.com/dairaidarkhanov) – [Furtuna](https://furtuna.digital))
+- Dair Aidarkhanov ([@dairaidarkhanov](https://twitter.com/dairaidarkhanov)) – [Furtuna](https://furtuna.digital)
 - Vlad Moroz ([@vladyslavmoroz](https://twitter.com/vladyslavmoroz)) – [WorkOS](https://workos.com)
 - Colm Tuite ([@colmtuite](https://twitter.com/colmtuite)) – [WorkOS](https://workos.com)
 - Pedro Duarte ([@peduarte](https://twitter.com/peduarte))
@@ -40,7 +40,7 @@ Import the icons into your Svelte project:
 
 ### License
 
-- **Radix Icons for Svelte** © 2024 Furtuna, Dair Aidarkhanov. Licensed under the BSD 2-Clause License.
+- **Radix Icons for Svelte** created under the BSD 2-Clause License from Furtuna.
 - **Radix Icons** used under the MIT License from WorkOS, Inc.
 
 See [LICENSE](./LICENSE.md) for more information.

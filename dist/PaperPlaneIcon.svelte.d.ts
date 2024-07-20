@@ -1,5 +1,7 @@
 export default PaperPlaneIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type PaperPlaneIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

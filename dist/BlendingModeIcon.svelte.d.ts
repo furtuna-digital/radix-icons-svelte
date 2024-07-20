@@ -1,5 +1,7 @@
 export default BlendingModeIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type BlendingModeIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {

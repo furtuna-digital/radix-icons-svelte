@@ -1,5 +1,7 @@
 export default ComponentPlaceholderIcon;
 
+import type { SvelteComponent } from "svelte";
+
 type ComponentPlaceholderIcon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {
