@@ -42,9 +42,7 @@ async function generateIconTypes(file) {
   const types = `
 export default ${componentName}Icon;
 
-import type { SvelteComponent } from "svelte";
-
-type ${componentName}Icon = SvelteComponent<$$ComponentProps, {
+type ${componentName}Icon = import("svelte").SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {
     $$bindings?: "" | undefined;

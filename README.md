@@ -1,6 +1,6 @@
 # Radix Icons for Svelte
 
-A crisp set of 15×15 icons designed by the [WorkOS](https://workos.com) team adapted for Svelte by [Furtuna](https://furtuna.digital) team.
+A crisp set of 15×15 icons designed by the [WorkOS](https://workos.com) team adapted for Svelte by [Furtuna](https://furtuna.digital).
 
 Visit [icons.radix-ui.com](https://icons.radix-ui.com) to browse the icons.
 
