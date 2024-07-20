@@ -3,7 +3,7 @@ import path from "node:path"
 
 const iconsDir = path.join(process.cwd(), "icons")
 const outputDir = path.join(process.cwd(), "dist")
-const entryPoint = "main.js"
+const entryPoint = "main"
 
 async function generateIconComponent(file) {
   const content = await fs.readFile(path.join(iconsDir, file), "utf-8")
@@ -21,7 +21,7 @@ async function generateIconComponent(file) {
   xmlns="http://www.w3.org/2000/svg"
 	width={size}
 	height={size}
-	viewBox="0 0 {size} {size}"
+	viewBox="0 0 15 15"
 	fill="none"
 	{...props}
 >
@@ -29,7 +29,7 @@ async function generateIconComponent(file) {
 </svg>
 `.trim()
 
-  await fs.writeFile(path.join(outputDir, `${componentName}.svelte`), svelte)
+  await fs.writeFile(path.join(outputDir, `${componentName}Icon.svelte`), svelte)
 }
 
 async function generateIconTypes(file) {
@@ -40,15 +40,15 @@ async function generateIconTypes(file) {
     .join("")
 
   const types = `
-export default ${componentName};
+export default ${componentName}Icon;
 
-type ${componentName} = SvelteComponent<$$ComponentProps, {
+type ${componentName}Icon = SvelteComponent<$$ComponentProps, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {
     $$bindings?: "" | undefined;
 };
 
-declare const ${componentName}: $$__sveltets_2_IsomorphicComponent<{
+declare const ${componentName}Icon: $$__sveltets_2_IsomorphicComponent<{
     size?: number;
     color?: string;
 } & Record<string, unknown>, {
@@ -72,7 +72,7 @@ interface $$__sveltets_2_IsomorphicComponent<Props extends Record<string, any> =
 }
 `.trim()
 
-  await fs.writeFile(path.join(outputDir, `${componentName}.svelte.d.ts`), types)
+  await fs.writeFile(path.join(outputDir, `${componentName}Icon.svelte.d.ts`), types)
 }
 
 async function generateEntryPoint(files) {
@@ -81,10 +81,13 @@ async function generateEntryPoint(files) {
       .split("-")
       .map(s => s.charAt(0).toUpperCase() + s.slice(1))
       .join("")
-    return `export { default as ${componentName} } from "./${componentName}.svelte";`
+    return `export { default as ${componentName}Icon } from "./${componentName}Icon.svelte";`
   })
 
-  await fs.writeFile(path.join(outputDir, entryPoint), exports.join("\n"))
+  await Promise.all([
+    fs.writeFile(path.join(outputDir, `${entryPoint}.js`), exports.join("\n")),
+    fs.writeFile(path.join(outputDir, `${entryPoint}.d.ts`), exports.join("\n"))
+  ])
 }
 
 async function main() {
